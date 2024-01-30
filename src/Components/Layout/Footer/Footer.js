@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
-    const date = new Date
+    const date = new Date();
     const year = date.getFullYear();
 
     return (
