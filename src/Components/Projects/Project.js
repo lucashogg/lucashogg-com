@@ -6,7 +6,7 @@ const CustomLink = ({ href, name, target = null }) => {
         <a
             href={href}
             target={target}
-            rel='noopener noreferrer'
+            rel="noopener noreferrer"
         >
             {name}
         </a>
@@ -14,11 +14,26 @@ const CustomLink = ({ href, name, target = null }) => {
 }
 
 const Project = (project) => {
-    const codeLink = <CustomLink href={project.codeLink} name='Code' target='_blank' />
-    const liveLink = <CustomLink href={project.liveLink} name='Live' target='_blank' />
+    const codeLink = <CustomLink
+        href={project.codeLink}
+        name="Code"
+        target="_blank"
+
+    />
+
+    const liveLink = <CustomLink
+        href={project.liveLink}
+        name="Live"
+        target="_blank"
+
+    />
 
     let image = project.image ? (
-        <img src={project.image} alt={[project.title]} />
+        <img
+            src={project.image}
+            alt={project.title}
+
+        />
     ) : null;
 
     return (

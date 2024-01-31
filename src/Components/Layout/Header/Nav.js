@@ -5,12 +5,12 @@ const Nav = () => {
         <nav className='nav'>
             <ul>
                 <li>
-                    <NavLink exact to='/'>
+                    <NavLink exact to="/">
                         Projects
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/about'>
+                    <NavLink to="/about">
                         About
                     </NavLink>
                 </li>
