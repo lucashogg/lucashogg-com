@@ -2,7 +2,7 @@
 import './Project.css';
 
 const CustomLink = ({ href, name, target = null }) => {
-    return href && name ? (
+    return href ? (
         <a
             href={href}
             target={target}
@@ -23,15 +23,17 @@ const Project = (project) => {
 
     return (
         <>
-            <section>
+            <section className="project">
                 <div className="project-top">
                     <h2>{project.title}</h2>
                 </div>
                 <div className="project-middle">
-                    {image}
                     <p>{project.description}</p>
                 </div>
                 <div className="project-bottom">
+                    <div className="project-img">
+                        {image}
+                    </div>
                     <ul>
                         <li>
                             {codeLink}

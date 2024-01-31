@@ -1,3 +1,4 @@
-.project-middle {
-    display: flex;
+.project-bottom ul {
+    list-style: none;
+    padding: 0;
 }
