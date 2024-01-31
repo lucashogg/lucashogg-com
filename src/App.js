@@ -1,8 +1,9 @@
+// Packages
+import { Route, Routes } from 'react-router-dom';
 // Components
 import Layout from './Components/Layout/Layout';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
-import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
