@@ -1,9 +1,11 @@
+@import './Styles/colors.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #F9F8F8;
-    color: #303636;
+    background-color: var(--bg);
+    color: var(--main);
 }
 
 .container {
@@ -12,11 +14,15 @@ body {
     max-width: 48rem;
 }
 
-a:hover {
-    color: #7C898B;
+h1,
+h2 {
+    color: var(--title);
 }
 
-ul li a {
-    color: inherit;
+a:hover {
+    color: var(--hover);
+}
+
+a {
     text-decoration: none;
 }
