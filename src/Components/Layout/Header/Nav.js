@@ -1,3 +1,4 @@
+// Packages
 import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
@@ -5,12 +6,12 @@ const Nav = () => {
         <nav className='nav'>
             <ul>
                 <li>
-                    <NavLink exact to="/">
+                    <NavLink className="sm-text" exact to="/">
                         Projects
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about">
+                    <NavLink className="sm-text" to="/about">
                         About
                     </NavLink>
                 </li>

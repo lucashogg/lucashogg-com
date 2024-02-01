@@ -11,7 +11,8 @@ body {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 48rem;
+    max-width: 50rem;
+    padding: 1rem;
 }
 
 h1,
@@ -19,10 +20,20 @@ h2 {
     color: var(--title);
 }
 
+a {
+    color: var(--main);
+    text-decoration: none;
+}
+
 a:hover {
     color: var(--hover);
 }
 
-a {
-    text-decoration: none;
+.section-break {
+    border-bottom: 1px solid var(--accent);
+    margin: 1.5rem 0;
+}
+
+.sm-text {
+    font-size: .9rem;
 }
