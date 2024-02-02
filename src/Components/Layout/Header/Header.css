@@ -12,10 +12,11 @@ header h1 {
     font-size: 1.5rem;
     font-weight: 800;
     margin: 0;
+    line-height: 1.5;
 }
 
 header p {
-    margin-top: .5rem;
+    margin-top: .25rem;
     margin-bottom: 0;
 }
 
@@ -32,13 +33,13 @@ header p {
 }
 
 .nav a {
-    padding: .3rem .5rem;
+    padding: .5rem;
 }
 
 nav a.active {
     background-color: var(--main);
     color: var(--bg);
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .social-links {
