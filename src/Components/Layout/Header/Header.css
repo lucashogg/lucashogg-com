@@ -17,9 +17,13 @@ header h1 {
 .social-links ul {
     display: flex;
     align-items: center;
-    gap: .6rem;
+    gap: .3rem;
     list-style: none;
     padding: 0;
+}
+
+.social-links ul {
+    gap: .5rem;
 }
 
 .nav a {
