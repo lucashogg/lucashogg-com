@@ -1,7 +1,15 @@
+/* Import styles */
 @import-normalize;
 @import './Styles/colors.css';
 
+/* Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -16,6 +24,7 @@ body {
     padding: 1rem;
 }
 
+/* General Font/Text Styling */
 h1,
 h2 {
     color: var(--title);
@@ -30,11 +39,17 @@ a:hover {
     color: var(--hover);
 }
 
+.sm-text {
+    font-size: .9rem;
+}
+
+/* General Image Styling */
+img {
+    width: 100%;
+}
+
+/* Section Divider */
 .section-break {
     border-bottom: 1px solid var(--accent);
     margin: 1.5rem 0;
-}
-
-.sm-text {
-    font-size: .9rem;
 }

@@ -2,11 +2,7 @@ footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .75rem;
     padding: 0 1rem;
     list-style: none;
-}
-
-footer a {
-    padding: .25rem;
 }

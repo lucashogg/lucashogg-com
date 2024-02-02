@@ -10,18 +10,18 @@ const Footer = () => {
     return (
         <footer>
             <ul>
-                <li>
+                <li className="sm-text">
                     Lucas Hogg © {year}
                 </li>
                 <li>|</li>
                 <li>
-                    <Link exact to="/">
+                    <Link exact to="/" className="sm-text">
                         Projects
                     </Link>
                 </li>
                 <li>|</li>
                 <li>
-                    <Link to="/about">
+                    <Link to="/about" className="sm-text">
                         About
                     </Link>
                 </li>
