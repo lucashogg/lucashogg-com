@@ -22,7 +22,6 @@ header p {
 .nav ul,
 .social-links ul {
     display: flex;
-    align-items: center;
     gap: .3rem;
     list-style: none;
     padding: 0;
@@ -33,7 +32,7 @@ header p {
 }
 
 .nav a {
-    padding: .5rem;
+    padding: .3rem .5rem;
 }
 
 nav a.active {

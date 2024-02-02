@@ -10,10 +10,10 @@ const Header = () => {
             <div className="top-header">
                 <div>
                     <h1>Lucas Hogg</h1>
-                    <p className="sm-text">lucas@lucashogg.com</p>
                 </div>
                 <Nav />
             </div>
+            <p className="sm-text">lucas@lucashogg.com</p>
             <SocialLinks />
             <div className="section-break"></div>
         </header>
