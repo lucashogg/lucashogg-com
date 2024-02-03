@@ -24,7 +24,6 @@ const ProjectList = () => {
                 liveLink="https://roggcollins.killtheheartache.com"
                 image={roggSmartLink}
             />
-            <div className="section-break"></div>
         </>
     )
 }

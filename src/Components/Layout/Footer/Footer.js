@@ -9,6 +9,7 @@ const Footer = () => {
 
     return (
         <footer>
+            <div className="section-break"></div>
             <ul>
                 <li className="sm-text">
                     Lucas Hogg © {year}
