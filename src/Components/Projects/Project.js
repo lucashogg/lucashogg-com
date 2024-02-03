@@ -1,29 +1,19 @@
 // CSS
 import './Project.css';
-
-const CustomLink = ({ href, name, target = null }) => {
-    return href ? (
-        <a
-            href={href}
-            target={target}
-            rel="noopener noreferrer"
-        >
-            {name}
-        </a>
-    ) : null;
-}
+// Components
+import CustomLink from '../Utlility/CustomLink';
 
 const Project = (project) => {
     const codeLink = <CustomLink
         href={project.codeLink}
-        name="Code"
+        name="View Code "
         target="_blank"
 
     />
 
     const liveLink = <CustomLink
         href={project.liveLink}
-        name="Live"
+        name="View Live "
         target="_blank"
 
     />
@@ -39,24 +29,23 @@ const Project = (project) => {
     return (
         <>
             <section className="project">
-                <div className="project-top">
+                <div className="project-left">
+                    <p className="project-year">{project.year}</p>
+                </div>
+                <div className="project-right">
                     <h2>{project.title}</h2>
-                </div>
-                <div className="project-middle">
                     <p>{project.description}</p>
-                </div>
-                <div className="project-bottom">
-                    <div className="project-img">
-                        {image}
-                    </div>
                     <ul>
-                        <li>
+                        <li className="sm-text">
                             {codeLink}
                         </li>
-                        <li>
+                        <li className="sm-text">
                             {liveLink}
                         </li>
                     </ul>
+                    <div className="project-img">
+                        {image}
+                    </div>
                 </div>
             </section>
         </>

@@ -48,6 +48,16 @@ img {
     width: 100%;
 }
 
+.ext-link-svg {
+    height: .6rem;
+    width: auto;
+}
+
+.ext-link-svg line {
+    stroke: var(--main);
+    stroke-width: 1rem;
+}
+
 /* Section Divider */
 .section-break {
     border-bottom: 1px solid var(--accent);

@@ -8,11 +8,14 @@ const ProjectList = () => {
     return (
         <>
             <Project
-                title="This is a project"
+                year="2021"
+                title="Spotify Artist Smart Link"
+                description="A custom &quot;smart link&quot; for my personal music project(s) utilizing HTML, SCSS, and JavaScript while leveraging the power of a Meta Pixel/Facebook Ad Manager to increase listener base."
+                codeLink="https://github.com/lucashogg/rogg-smartlink"
+                liveLink="https://roggcollins.killtheheartache.com"
                 image={roggSmartLink}
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu volutpat odio facilisis mauris sit amet. Leo urna molestie at elementum eu facilisis sed odio. Purus in mollis nunc sed id semper risus in. Eget felis eget nunc lobortis mattis. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu volutpat odio facilisis mauris sit amet. Leo urna molestie at elementum eu facilisis sed odio. Purus in mollis nunc sed id semper risus in. Eget felis eget nunc lobortis mattis. Bibendum est ultricies integer quis auctor elit sed vulputate mi."
-                codeLink='https://github.com'
             />
+            <div className="section-break"></div>
         </>
     )
 }

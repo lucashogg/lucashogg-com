@@ -1,4 +1,29 @@
-.project-bottom ul {
+.project {
+    display: flex;
+}
+
+.project-left {
+    border-right: 1px solid var(--accent);
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.project-left .project-year {
+    font-weight: 600;
+    margin-top: .15rem;
+}
+
+.project h2 {
+    font-size: 1.35rem;
+}
+
+.project p {
+    margin: 1rem 0;
+}
+
+.project ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
