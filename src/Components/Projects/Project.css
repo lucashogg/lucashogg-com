@@ -1,11 +1,13 @@
 .project {
     display: flex;
+    margin-top: 2rem;
 }
 
 .project-left {
     border-right: 1px solid var(--accent);
     margin-right: 1rem;
     padding-right: 1rem;
+    height: 20rem;
 }
 
 .project-left .project-year {

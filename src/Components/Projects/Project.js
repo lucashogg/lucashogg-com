@@ -22,7 +22,6 @@ const Project = (project) => {
         <img
             src={project.image}
             alt={project.title}
-
         />
     ) : null;
 
