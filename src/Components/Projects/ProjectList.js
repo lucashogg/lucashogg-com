@@ -13,7 +13,7 @@ const ProjectList = () => {
                 year="2023"
                 title="AAAA Westwood Pumping Service"
                 description={<>
-                    A static website built with Bootstrap's framework for AAAA Westwood Pumping Service; a Phoenix, AZ-based septic pumping business. They requested something quick, simple, and straightforward.
+                    A static website built with Bootstrap's framework for AAAA Westwood Pumping Service; a Phoenix, AZ-based septic pumping business. They requested something quick, simple, and straightforward that would easily inform new clients of their services.
                 </>}
                 liveLink="https://aaaawestwoodpumping.com/"
                 image={westwood}
