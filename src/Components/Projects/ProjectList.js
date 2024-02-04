@@ -12,14 +12,18 @@ const ProjectList = () => {
             <Project
                 year="2023"
                 title="AAAA Westwood Pumping Service"
-                description={<>A custom "smart link" for my personal music project(s) utilizing HTML, SCSS, and JavaScript while leveraging the power of a Meta Pixel/Facebook Ad Manager to increase listener base.</>}
+                description={<>
+                    A static website built with Bootstrap's framework for AAAA Westwood Pumping Service; a Phoenix, AZ-based septic pumping business. They requested something quick, simple, and straightforward.
+                </>}
                 liveLink="https://aaaawestwoodpumping.com/"
                 image={westwood}
             />
             <Project
                 year="2023"
                 title="Battle Tracker"
-                description={<>Battle Tracker is a web app designed to assist the GM of a Dungeons & Dragons table top campaign. Battle Tracker will store unique characters or monsters each containing a few basic stats while keeping track of initiative in battles. This was my final project for the course: <CustomLink href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank" name="CS50" />.</>}
+                description={<>
+                    Battle Tracker is a web app designed to assist the GM of a Dungeons & Dragons table top campaign. Battle Tracker will store unique characters or monsters each containing a few basic stats while keeping track of initiative in battles. This was my final project for the course: <CustomLink href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank" name="CS50" />.
+                </>}
                 codeLink="https://github.com/lucashogg/Battle-Tracker"
                 liveLink="http://lucashogg.pythonanywhere.com/"
                 image={battleTracker}
@@ -27,7 +31,9 @@ const ProjectList = () => {
             <Project
                 year="2021"
                 title="Music Artist Smart Link"
-                description={<>A custom "smart link" for my personal music project(s) utilizing HTML, SCSS, and JavaScript while leveraging the power of a Meta Pixel/Facebook Ad Manager to increase listener base.</>}
+                description={<>
+                    A custom "smart link" for my personal music project(s) utilizing HTML, SCSS, and JavaScript while leveraging the power of a Meta Pixel/Facebook Ad Manager to increase listener base.
+                </>}
                 codeLink="https://github.com/lucashogg/rogg-smartlink"
                 liveLink="https://roggcollins.killtheheartache.com"
                 image={roggSmartLink}
