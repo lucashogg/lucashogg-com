@@ -6,6 +6,32 @@ const ProjectList = () => {
     return (
         <>
             <Project
+                year="2024"
+                title="lucashogg.com"
+                description={<>
+                    My portfolio website where you can view current and past projects. This was an exercise in learning/implementing React while maintaining a clean UI for overall accessibility.
+                </>}
+                codeLink="https://github.com/lucashogg/"
+            />
+            <Project
+                year="2023"
+                title="Calculator"
+                description={<>
+                    Utilizing Javascript, this web-based calculator contains all classic functions (+, -, /, x) while allowing you delete typos mid calculation. This was an assignment for <CustomLink href="https://www.theodinproject.com/" target="_blank" name="The Odin Project" /> curriculum.
+                </>}
+                codeLink="https://github.com/lucashogg/calculator"
+                liveLink="https://lucashogg.github.io/calculator"
+            />
+            <Project
+                year="2023"
+                title="Rock, Paper, Scissors"
+                description={<>
+                    An exercise in DOM manipulation and Javascript, this is a web-based game of Rock, Paper, Scissors for <CustomLink href="https://www.theodinproject.com/" target="_blank" name="The Odin Project" /> curriculum.
+                </>}
+                codeLink="https://github.com/lucashogg/rock-paper-scissors"
+                liveLink="https://lucashogg.github.io/rock-paper-scissors"
+            />
+            <Project
                 year="2023"
                 title="AAAA Westwood Pumping Service"
                 description={<>

@@ -6,14 +6,14 @@ import CustomLiLink from '../Utlility/CustomLiLink';
 const Project = (project) => {
     const codeLink = <CustomLiLink
         href={project.codeLink}
-        name="View Code "
+        name="View Code"
         target="_blank"
 
     />
 
     const liveLink = <CustomLiLink
         href={project.liveLink}
-        name="View Live "
+        name="View Live"
         target="_blank"
 
     />
