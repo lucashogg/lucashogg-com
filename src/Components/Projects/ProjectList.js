@@ -1,10 +1,6 @@
 // Components
 import Project from './Project';
 import CustomLink from '../Utlility/CustomLink';
-// Media
-import westwood from './img/westwood.jpg';
-import battleTracker from './img/battle-tracker.jpg';
-import roggSmartLink from './img/rogg-smartlink.jpg';
 
 const ProjectList = () => {
     return (
@@ -16,7 +12,6 @@ const ProjectList = () => {
                     A static website built with Bootstrap's framework for AAAA Westwood Pumping Service; a Phoenix, AZ-based septic pumping business. They requested something quick, simple, and straightforward that would easily inform new clients of their services.
                 </>}
                 liveLink="https://aaaawestwoodpumping.com/"
-                image={westwood}
             />
             <Project
                 year="2023"
@@ -26,7 +21,6 @@ const ProjectList = () => {
                 </>}
                 codeLink="https://github.com/lucashogg/Battle-Tracker"
                 liveLink="http://lucashogg.pythonanywhere.com/"
-                image={battleTracker}
             />
             <Project
                 year="2021"
@@ -36,7 +30,6 @@ const ProjectList = () => {
                 </>}
                 codeLink="https://github.com/lucashogg/rogg-smartlink"
                 liveLink="https://roggcollins.killtheheartache.com"
-                image={roggSmartLink}
             />
         </>
     )

@@ -7,7 +7,7 @@
     border-right: 1px solid var(--accent);
     margin-right: 1rem;
     padding-right: 1rem;
-    max-height: 250px;
+    max-height: 50px;
 }
 
 .project-left .project-year {
