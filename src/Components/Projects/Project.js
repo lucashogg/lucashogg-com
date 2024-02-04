@@ -1,17 +1,17 @@
 // CSS
 import './Project.css';
 // Components
-import CustomLink from '../Utlility/CustomLink';
+import CustomLiLink from '../Utlility/CustomLiLink';
 
 const Project = (project) => {
-    const codeLink = <CustomLink
+    const codeLink = <CustomLiLink
         href={project.codeLink}
         name="View Code "
         target="_blank"
 
     />
 
-    const liveLink = <CustomLink
+    const liveLink = <CustomLiLink
         href={project.liveLink}
         name="View Live "
         target="_blank"
@@ -35,12 +35,8 @@ const Project = (project) => {
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
                     <ul>
-                        <li className="sm-text">
-                            {codeLink}
-                        </li>
-                        <li className="sm-text">
-                            {liveLink}
-                        </li>
+                        {codeLink}
+                        {liveLink}
                     </ul>
                     <div className="project-img">
                         {image}
