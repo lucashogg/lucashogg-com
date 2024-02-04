@@ -34,10 +34,10 @@ const Project = (project) => {
                 <div className="project-right">
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
-                    <ul>
+                    <div className="project-links">
                         {codeLink}
                         {liveLink}
-                    </ul>
+                    </div>
                     <div className="project-img">
                         {image}
                     </div>
