@@ -13,7 +13,11 @@ const Header = () => {
                 </div>
                 <Nav />
             </div>
-            <p className="sm-text">lucas@lucashogg.com</p>
+            <p className="sm-text">
+                <a href="mailto:lucas@lucashogg.com">
+                    lucas@lucashogg.com
+                </a>
+            </p>
             <SocialLinks />
             <div className="section-break"></div>
         </header>
