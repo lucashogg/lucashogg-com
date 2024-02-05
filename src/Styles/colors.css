@@ -2,15 +2,7 @@
     --bg: #F9F8F8;
     --title: #303636;
     --main: #434C4C;
-    --hover: #7C898B;
+    --href: #7C898B;
+    --hover: #1D2020;
     --accent: #C9CFCF;
 }
-
-/* :root {
-    --bg: #303636;
-    --title: #F9F8F8;
-    --main: #C9CFCF;
-    --hover: #7C898B;
-    --accent: #434C4C;
-    --social-links: invert(98%) sepia(0%) saturate(7496%) hue-rotate(297deg) brightness(133%) contrast(95%);
-} */

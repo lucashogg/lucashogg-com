@@ -5,6 +5,7 @@ const CustomLiLink = ({ href, name, target = null }) => {
     return href ? (
         <li className="sm-text">
             <a
+                className="underline"
                 href={href}
                 target={target}
                 rel="noopener noreferrer"

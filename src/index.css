@@ -35,7 +35,7 @@ h2 {
 }
 
 a {
-    color: var(--main);
+    color: var(--href);
     text-decoration: none;
 }
 
@@ -45,6 +45,10 @@ a:hover {
 
 .sm-text {
     font-size: .9rem;
+}
+
+.underline:hover {
+    text-decoration: underline;
 }
 
 /* General Image Styling */
