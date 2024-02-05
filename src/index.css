@@ -62,7 +62,7 @@ img {
 }
 
 .ext-link-svg line {
-    stroke: var(--main);
+    stroke: var(--href);
     stroke-width: 1rem;
 }
 
