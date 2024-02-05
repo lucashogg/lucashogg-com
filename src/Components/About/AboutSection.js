@@ -11,7 +11,7 @@ const AboutSection = () => {
             <div className="about">
                 <img src={avatar} alt="Lucas Hogg" />
                 <div className="about-text">
-                    <h2>Hey there</h2>
+                    <h2>Hey there.</h2>
                     <p>
                         My name is Lucas Hogg. I currently specialize in front-end modification for a proprietary SaaS platform that provides e-commerce-based storefronts to clients. Self-taught and a self-starter, I've always enjoyed exploring new technologies; all starting with a background in design and video/music production.
                     </p>
