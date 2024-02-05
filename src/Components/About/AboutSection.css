@@ -1,0 +1,10 @@
+.about img {
+    float: left;
+    max-width: 100px;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+
+.about p {
+    margin: 1rem 0;
+}
