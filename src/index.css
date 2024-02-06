@@ -33,6 +33,10 @@ h2 {
     font-size: 1.35rem;
 }
 
+p {
+    line-height: 1.5;
+}
+
 a {
     color: var(--href);
     text-decoration: none;
