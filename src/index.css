@@ -60,13 +60,9 @@ img {
 }
 
 .ext-link-svg {
-    height: .6rem;
+    height: .9rem;
     width: auto;
-}
-
-.ext-link-svg line {
-    stroke: var(--href);
-    stroke-width: 1rem;
+    fill: var(--href);
 }
 
 /* Section Divider */
