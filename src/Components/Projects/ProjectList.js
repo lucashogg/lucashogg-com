@@ -43,7 +43,7 @@ const ProjectList = () => {
                 year="2023"
                 title="Battle Tracker"
                 description={<>
-                    Battle Tracker is a web app designed to assist the GM of a Dungeons & Dragons table top campaign. Battle Tracker will store unique characters or monsters each containing a few basic stats while keeping track of initiative in battles. This was my final project for the course: <CustomLink href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank" name="CS50" />.
+                    Battle Tracker is a web app designed to assist the GM of a Dungeons & Dragons table top campaign. Battle Tracker will store unique characters or monsters each containing a few basic stats while keeping track of initiative in battles. This was my final project for the course: <CustomLink href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank" name="CS50." />
                 </>}
                 codeLink="https://github.com/lucashogg/Battle-Tracker"
                 liveLink="http://lucashogg.pythonanywhere.com/"
