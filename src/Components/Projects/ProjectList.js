@@ -17,7 +17,7 @@ const ProjectList = () => {
                 year="2023"
                 title="Calculator"
                 description={<>
-                    Utilizing Javascript, this web-based calculator contains all classic functions (+, -, /, x) while allowing you delete typos mid calculation. This was an assignment for <CustomLink href="https://www.theodinproject.com/" target="_blank" name="The Odin Project" /> curriculum.
+                    Utilizing Javascript, this web-based calculator contains all classic functions (+), (-), (/), (*) while allowing you delete typos mid calculation. This was an assignment for <CustomLink href="https://www.theodinproject.com/" target="_blank" name="The Odin Project" /> curriculum.
                 </>}
                 codeLink="https://github.com/lucashogg/calculator"
                 liveLink="https://lucashogg.github.io/calculator"
