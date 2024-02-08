@@ -11,7 +11,7 @@ const ProjectList = () => {
                 description={<>
                     My portfolio website where you can view current and past projects. This was an exercise in learning and implementing React while maintaining a clean UI for overall accessibility.
                 </>}
-                codeLink="https://github.com/lucashogg/"
+                codeLink="https://github.com/lucashogg/lucashogg-com"
             />
             <Project
                 year="2023"
