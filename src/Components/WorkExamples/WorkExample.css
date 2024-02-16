@@ -1,0 +1,7 @@
+.example-work {
+    margin-top: 2rem;
+}
+
+.example-work p, .example-work-image {
+    margin: 1rem 0;
+}

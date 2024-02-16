@@ -10,6 +10,9 @@ const WorkExampleList = () => {
                 title="Blank Storefront"
                 image={blankStorefront}
                 alt="Blank storefront example"
+                description={
+                    <p>TEST</p>
+                }
             />
         </>
     )
