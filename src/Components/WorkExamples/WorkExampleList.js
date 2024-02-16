@@ -14,7 +14,7 @@ const WorkExampleList = () => {
                 alt="Blank storefront example"
                 description={
                     <>
-                        <p>My current role mainly revolves around DOM manipulation utilizing custom HTML, CSS, and JavaScript. Using these tools in conjunction with this platform's "website builder" functionality, I can improve the user experience through custom web and graphic design.</p>
+                        <p>My current role mainly revolves around DOM manipulation utilizing custom HTML, CSS, and JavaScript. Using these tools in conjunction with the platform's "website builder" functionality, I can improve the user experience through custom web and graphic design.</p>
                         <p>The above image shows what a user is met with upon signing up for the platform, a blank storefront.</p>
                     </>
                 }
@@ -25,7 +25,7 @@ const WorkExampleList = () => {
                 alt="United Survival storefront example"
                 description={
                     <>
-                        <p>Above we have a great example of my custom web design work. Code injected via "Custom Code" input boxes in the user backend is mixed with manipulating the platform's more user friendly website builder functionality to create a more full-featured user experience. Custom graphic design (banners, category buttons) and asset resizing/cropping are also skills involved in the makeover process.</p>
+                        <p>Above we have a great example of my custom web design work. Code injected via "Custom Code" input boxes in the user backend is mixed with manipulating the platform's more user friendly website builder functionality (eg, a slideshow widget, a product tile collection widget) to create a more full-featured user experience. Custom graphic design (banners, category buttons) and asset resizing/cropping are also skills involved in the makeover process.</p>
                     </>
                 }
             />
