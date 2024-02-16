@@ -1,5 +1,5 @@
 const ArWorkEx = () => {
-    return 'Test';
+    return 'test';
 }
 
 export default ArWorkEx

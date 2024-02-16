@@ -18,13 +18,6 @@ const Project = (project) => {
 
     />
 
-    let image = project.image ? (
-        <img
-            src={project.image}
-            alt={project.title}
-        />
-    ) : null;
-
     return (
         <>
             <section className="project">
@@ -38,9 +31,6 @@ const Project = (project) => {
                         {codeLink}
                         {liveLink}
                     </ul>
-                    <div className="project-img">
-                        {image}
-                    </div>
                 </div>
             </section>
         </>
