@@ -6,7 +6,11 @@ const ArWork = (example) => {
         />
     ) : null;
 
-    return {image};
+    return (
+        <>
+            <p>{image}</p>
+        </>
+    )
 }
 
 export default ArWork

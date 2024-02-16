@@ -1,5 +1,10 @@
+// Components
+import ArWorkList from '../Components/ArWorkEx/ArWorkList';
+
 const ArWorkEx = () => {
-    return 'test';
+    return (
+        <ArWorkList />
+    )
 }
 
 export default ArWorkEx
