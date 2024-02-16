@@ -1,3 +1,6 @@
+// CSS
+import './WorkExample.css'
+
 const WorkExample = (example) => {
     let image = example.image ? (
         <img
@@ -8,13 +11,15 @@ const WorkExample = (example) => {
 
     return (
         <>
-            <div class="example-work">
+            <section class="example-work">
                 <h2>{example.title}</h2>
                 <div class="example-work-image">
                     {image}
                 </div>
-                <p>{example.description}</p>
-            </div>
+                <div class="example-work-desc">
+                    {example.description}
+                </div>
+            </section>
         </>
     )
 }
