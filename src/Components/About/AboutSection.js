@@ -19,7 +19,7 @@ const AboutSection = () => {
                         I have been working as a front-end developer for over two years, after switching careers from coffee roasting. I am a self-taught and self-motivated learner who constantly explores new technologies and tools. I'm passionate about creating experiences that aren't just made, but also shared.
                     </p>
                     <p>
-                        I still continue to produce music as a hobby. Listen to that <CustomLink href="https://lucashogg.killtheheartache.com" target="_blank" name="here." />
+                        I also produce music as a hobby. Listen to that <CustomLink href="https://lucashogg.killtheheartache.com" target="_blank" name="here." />
                     </p>
                 </div>
             </div>
