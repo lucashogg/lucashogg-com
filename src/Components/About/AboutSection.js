@@ -13,10 +13,10 @@ const AboutSection = () => {
                 <div className="about-text">
                     <h2>Hey there.</h2>
                     <p>
-                        My name is Lucas Hogg. I currently specialize in front-end modification for a proprietary SaaS platform that provides e-commerce-based storefronts to clients. Self-taught and a self-starter, I've always enjoyed exploring new technologies; all starting with a background in design and video/music production.
+                        My name is Lucas Hogg. I currently specialize in customizing and enhancing the user experience for a proprietary SaaS platform that provides e-commerce-based storefronts to clients. I use my skills in responsive web design, JavaScript, HTML/CSS, and graphic design to create personalized and engaging websites that showcase our clients' products and services.
                     </p>
                     <p>
-                        Formerly a full-time coffee roaster, I've been able to leverage the available online recourses for self study in the field of computer science to switch career paths. I'm super passionate about creating experiences that aren't just made, but also shared.
+                        I have been working as a front-end developer for over two years, after switching careers from coffee roasting. I am a self-taught and self-motivated learner who constantly explores new technologies and tools. I'm passionate about creating experiences that aren't just made, but also shared.
                     </p>
                     <p>
                         I still continue to produce music as a hobby. Listen to that <CustomLink href="https://lucashogg.killtheheartache.com" target="_blank" name="here." />
