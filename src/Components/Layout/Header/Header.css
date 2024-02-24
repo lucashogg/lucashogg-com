@@ -44,8 +44,9 @@ nav a.active {
 
 .social-links svg {
     width: 1.5rem;
+    fill: var(--main);
 }
 
 .social-links svg:hover {
-    fill: var(--hover);
+    fill: var(--href);
 }
