@@ -2,9 +2,6 @@
 @import-normalize;
 @import './Styles/colors.css';
 
-/* Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
-
 /* Global */
 * {
     margin: 0;
@@ -12,7 +9,11 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
     background-color: var(--bg);
     color: var(--main);
 }
