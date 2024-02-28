@@ -1,6 +1,6 @@
 // Components
 import WorkExampleList from '../Components/WorkExamples/WorkExampleList';
-import PageHead from '../Components/Utlility/PageHead';
+import PageHead from '../Components/Utility/PageHead';
 
 const WorkExamples = () => {
     return (

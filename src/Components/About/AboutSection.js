@@ -1,7 +1,7 @@
 // CSS
 import './AboutSection.css';
 // Components
-import CustomLink from '../Utlility/CustomLink';
+import CustomLink from '../Utility/CustomLink';
 // Media
 import avatar from './img/lucas.jpg';
 

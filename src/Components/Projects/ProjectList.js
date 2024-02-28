@@ -1,6 +1,6 @@
 // Components
 import Project from './Project';
-import CustomLink from '../Utlility/CustomLink';
+import CustomLink from '../Utility/CustomLink';
 
 const ProjectList = () => {
     return (

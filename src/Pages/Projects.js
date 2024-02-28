@@ -1,6 +1,6 @@
 // Components
 import ProjectList from '../Components/Projects/ProjectList';
-import PageHead from '../Components/Utlility/PageHead';
+import PageHead from '../Components/Utility/PageHead';
 
 const Projects = () => {
     return (

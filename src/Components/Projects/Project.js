@@ -1,7 +1,7 @@
 // CSS
 import './Project.css';
 // Components
-import CustomLiLink from '../Utlility/CustomLiLink';
+import CustomLiLink from '../Utility/CustomLiLink';
 
 const Project = (project) => {
     const codeLink = <CustomLiLink

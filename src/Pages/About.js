@@ -1,6 +1,6 @@
 // Components
 import AboutSection from '../Components/About/AboutSection';
-import PageHead from '../Components/Utlility/PageHead';
+import PageHead from '../Components/Utility/PageHead';
 
 const About = () => {
     return (
